@@ -98,4 +98,52 @@ $$
 
 ---
 
-Let me know if you'd like a Python implementation of these as well.
+Python implementation 
+
+---
+
+import numpy as np
+
+# Sample true values and predicted values
+y_true = np.array([3.0, -0.5, 2.0, 7.0])
+y_pred = np.array([2.5, 0.0, 2.0, 8.0])
+
+# 1) Mean Bias Error (MBE)
+def mean_bias_error(y_true, y_pred):
+    return np.mean(y_true - y_pred)
+
+# 2) Mean Absolute Error (MAE)
+def mean_absolute_error(y_true, y_pred):
+    return np.mean(np.abs(y_true - y_pred))
+
+# 3) Mean Squared Error (MSE)
+def mean_squared_error(y_true, y_pred):
+    return np.mean((y_true - y_pred) ** 2)
+
+# 4) Root Mean Squared Error (RMSE)
+def root_mean_squared_error(y_true, y_pred):
+    return np.sqrt(mean_squared_error(y_true, y_pred))
+
+# 5) Huber Loss
+def huber_loss(y_true, y_pred, delta=1.0):
+    error = y_true - y_pred
+    is_small_error = np.abs(error) <= delta
+    squared_loss = 0.5 * error**2
+    linear_loss = delta * (np.abs(error) - 0.5 * delta)
+    return np.mean(np.where(is_small_error, squared_loss, linear_loss))
+
+# 6) Log-Cosh Loss
+def log_cosh_loss(y_true, y_pred):
+    error = y_true - y_pred
+    return np.mean(np.log(np.cosh(error)))
+
+# Print results
+print("Mean Bias Error:", mean_bias_error(y_true, y_pred))
+print("Mean Absolute Error:", mean_absolute_error(y_true, y_pred))
+print("Mean Squared Error:", mean_squared_error(y_true, y_pred))
+print("Root Mean Squared Error:", root_mean_squared_error(y_true, y_pred))
+print("Huber Loss (delta=1):", huber_loss(y_true, y_pred))
+print("Log-Cosh Loss:", log_cosh_loss(y_true, y_pred))
+
+
+---
