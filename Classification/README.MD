@@ -1,4 +1,4 @@
-#Classification: 
+# Classification: 
 <br />
 1) BCE: Used for binary classification tasks. Measures the dissimilarity between predicted probabilities and true binary labels, through the logarithmic loss.
 
