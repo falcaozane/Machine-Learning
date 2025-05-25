@@ -1,6 +1,7 @@
 # Classification: 
 <br />
 ---
+<br />
 1) BCE: Used for binary classification tasks. Measures the dissimilarity between predicted probabilities and true binary labels, through the logarithmic loss.
 
 2) Hinge loss: Penalizes both wrong and right (but less confident) predictions). It is based on the concept of margin, which represents the distance between a data point and the decision boundary. Particularly used to train support vector machines (SVMs).
