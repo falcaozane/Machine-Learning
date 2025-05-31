@@ -50,3 +50,4 @@ Here are the key metrics:
 **Cross-validation** is often used to find the optimal $k$ for a given dataset.
 
 
+![alt text](image-1.png)
