@@ -58,3 +58,11 @@ Python libraries: Squarify
 <hr />
 
 Python's rich ecosystem of visualization libraries offers a wide range of options for creating informative and engaging visualizations. By mastering these techniques, you can gain valuable insights from your data and communicate your findings effectively.
+
+
+## Imp links:
+
+https://www.kaggle.com/code/pythonafroz/python-for-machine-learning-visualization-part-01
+https://www.kaggle.com/code/pythonafroz/python-for-machine-learning-visualization-part-02
+https://www.kaggle.com/code/pythonafroz/python-for-machine-learning-visualization-part-03
+https://www.kaggle.com/code/pythonafroz/python-for-machine-learning-visualization-part-04
