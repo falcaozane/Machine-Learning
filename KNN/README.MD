@@ -45,6 +45,8 @@ Here are the key metrics:
 **Important Considerations for Evaluation:**
 
 * **Train-Test Split/Cross-Validation:** Always split your dataset into training and testing sets (or use cross-validation) to evaluate the model's performance on unseen data. Evaluating solely on the training data can lead to an overly optimistic (and often misleading) view of performance, especially with algorithms like KNN that can easily overfit if $k$ is too small.
-* **Choice of $k$:** As you've seen in the visualizations, the choice of the 'k' parameter significantly impacts the decision boundary and, consequently, the performance. Cross-validation is often used to find the optimal $k$ for a given dataset.
+* **Choice of $k$:** As you've seen in the visualizations, the choice of the 'k' parameter significantly impacts the decision boundary and, consequently, the performance. 
+
+**Cross-validation** is often used to find the optimal $k$ for a given dataset.
 
 
