@@ -107,19 +107,19 @@ This document provides a detailed comparison and evaluation of four popular clus
 
 | Metric                      | Description                                                                 | Formula/Explanation                                                                 |
 |-----------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| **Adjusted Rand Index (ARI)** | Measures the similarity between true and predicted clusters, adjusted for chance. | $ \text{ARI} = \frac{\text{RI} - \text{Expected RI}}{\max(\text{RI}) - \text{Expected RI}} $ |
-| **Normalized Mutual Information (NMI)** | Measures the mutual information between true and predicted clusters, normalized. | $ \text{NMI} = \frac{2 \cdot I(Y, C)}{H(Y) + H(C)}} $                                  |
-| **Fowlkes-Mallows Index (FMI)** | Geometric mean of precision and recall for pairwise cluster assignments.    | $ \text{FMI} = \frac{\text{TP}}{\sqrt{(\text{TP} + \text{FP}) \cdot (\text{TP} + \text{FN})}} $ |
-| **Homogeneity, Completeness, V-Measure** | Measures how well clusters match true labels (homogeneity) and how well true labels are grouped into clusters (completeness). V-Measure is their harmonic mean. | $ \text{V-Measure} = \frac{2 \cdot \text{homo} \cdot \text{comp}}{\text{homo} + \text{comp}} $ |
+| **Adjusted Rand Index (ARI)** | Measures the similarity between true and predicted clusters, adjusted for chance. | $\text{ARI} = \frac{\text{RI} - \text{Expected RI}}{\max(\text{RI}) - \text{Expected RI}}$ |
+| **Normalized Mutual Information (NMI)** | Measures the mutual information between true and predicted clusters, normalized. | $\text{NMI} = \frac{2 \cdot I(Y, C)}{H(Y) + H(C)}$                                  |
+| **Fowlkes-Mallows Index (FMI)** | Geometric mean of precision and recall for pairwise cluster assignments.    | $\text{FMI} = \frac{\text{TP}}{\sqrt{(\text{TP} + \text{FP}) \cdot (\text{TP} + \text{FN})}}$ |
+| **Homogeneity, Completeness, V-Measure** | Measures how well clusters match true labels (homogeneity) and how well true labels are grouped into clusters (completeness). V-Measure is their harmonic mean. | $\text{V-Measure} = \frac{2 \cdot \text{homo} \cdot \text{comp}}{\text{homo} + \text{comp}}$ |
 
 ### Metrics without Ground Truth Labels
 
 | Metric                      | Description                                                                 | Formula/Explanation                                                                 |
 |-----------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| **Silhouette Score** | Measures how similar an object is to its own cluster compared to other clusters. Ranges from -1 to 1. | $ s(i) = \frac{b(i) - a(i)}{\max(a(i), b(i))} $                                     |
-| **Calinski-Harabasz Index** | Ratio of between-cluster dispersion to within-cluster dispersion. Higher values indicate better clustering. | $ \text{CH} = \frac{\text{tr}(B_k)}{\text{tr}(W_k)} \cdot \frac{N - k}{k - 1} $   |
-| **Davies-Bouldin Index** | Average similarity ratio of within-cluster scatter to between-cluster separation. Lower values indicate better clustering. | $ \text{DB} = \frac{1}{k} \sum_{i=1}^k \max_{j \neq i} \left( \frac{s_i + s_j}{d(c_i, c_j)} \right) $ |
-| **Dunn Index** | Ratio of the smallest inter-cluster distance to the largest intra-cluster distance. Higher values indicate better clustering. | $ \text{Dunn} = \frac{\min_{1 \leq i < j \leq n} d(i, j)}{\max_{1 \leq k \leq n} \Delta_k} $ |
+| **Silhouette Score** | Measures how similar an object is to its own cluster compared to other clusters. Ranges from -1 to 1. | $s(i) = \frac{b(i) - a(i)}{\max(a(i), b(i))}$                                     |
+| **Calinski-Harabasz Index** | Ratio of between-cluster dispersion to within-cluster dispersion. Higher values indicate better clustering. | $\text{CH} = \frac{\text{tr}(B_k)}{\text{tr}(W_k)} \cdot \frac{N - k}{k - 1}$   |
+| **Davies-Bouldin Index** | Average similarity ratio of within-cluster scatter to between-cluster separation. Lower values indicate better clustering. | $\text{DB} = \frac{1}{k} \sum_{i=1}^k \max_{j \neq i} \left( \frac{s_i + s_j}{d(c_i, c_j)} \right)$ |
+| **Dunn Index** | Ratio of the smallest inter-cluster distance to the largest intra-cluster distance. Higher values indicate better clustering. | $\text{Dunn} = \frac{\min_{1 \leq i < j \leq n} d(i, j)}{\max_{1 \leq k \leq n} \Delta_k}$ |
 
 ---
 
