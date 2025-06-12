@@ -70,3 +70,5 @@ https://www.kaggle.com/code/pythonafroz/python-for-machine-learning-visualizatio
 
 
 ![alt text](image.png)
+
+https://medium.com/@ChanakaDev/choosing-the-right-chart-for-your-problem-harnessing-visual-vocabulary-65f14701ea36
