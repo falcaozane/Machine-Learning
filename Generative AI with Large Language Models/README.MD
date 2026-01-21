@@ -53,3 +53,8 @@ Attention is all you need paper : https://arxiv.org/abs/1706.03762
 * Deployment Optimization: Optimizing the model for deployment ensures efficient use of compute resources and enhances user experience.
 * Performance Assessment: Evaluating the model's performance and making adjustments through techniques like prompt engineering and fine-tuning is essential for achieving desired outcomes.
 * Model Training: Deciding whether to train a model from scratch or use an existing base model is a fundamental step in the development process.
+
+* Amazon SageMaker: Amazon SageMaker is a cloud-based service that provides tools for building, training, and deploying machine learning models, which students will use in their labs.
+* Vocareum: Vocareum is the lab environment used for running coding exercises, providing access to cloud resources without cost.
+* Jupyter Notebooks: Jupyter Notebooks are interactive documents that allow users to write and execute code in a web-based interface, facilitating hands-on coding practice.
+* Lab Instructions: The lab instructions guide students through the process of accessing and utilizing the lab environment, ensuring they can complete their exercises successfully.
