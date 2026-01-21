@@ -48,3 +48,8 @@ Attention is all you need paper : https://arxiv.org/abs/1706.03762
 * Temperature: A parameter that influences the randomness of the model's output; higher values increase variability, while lower values make the output more deterministic.
 * Configuration Parameters: These parameters are set during inference to control aspects like output length and creativity, distinct from training parameters.
 
+* Infrastructure Considerations: Understanding the additional infrastructure requirements is vital for the successful operation of the application.
+* Project Scope Definition: Defining the project scope accurately is crucial for determining the capabilities and requirements of the LLM in the application.
+* Deployment Optimization: Optimizing the model for deployment ensures efficient use of compute resources and enhances user experience.
+* Performance Assessment: Evaluating the model's performance and making adjustments through techniques like prompt engineering and fine-tuning is essential for achieving desired outcomes.
+* Model Training: Deciding whether to train a model from scratch or use an existing base model is a fundamental step in the development process.
