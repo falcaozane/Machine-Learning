@@ -58,3 +58,11 @@ Attention is all you need paper : https://arxiv.org/abs/1706.03762
 * Vocareum: Vocareum is the lab environment used for running coding exercises, providing access to cloud resources without cost.
 * Jupyter Notebooks: Jupyter Notebooks are interactive documents that allow users to write and execute code in a web-based interface, facilitating hands-on coding practice.
 * Lab Instructions: The lab instructions guide students through the process of accessing and utilizing the lab environment, ensuring they can complete their exercises successfully.
+
+* Quantization: Quantization is the process of reducing the precision of the model weights from higher precision formats like FP32 to lower precision formats like FP16 or INT8, thereby reducing memory requirements during model training.
+* FP32, FP16, BFLOAT16: FP32 refers to 32-bit floating point representation, FP16 to 16-bit floating point, and BFLOAT16 is a hybrid format that maintains the dynamic range of FP32 while using only 16 bits, optimizing memory usage in deep learning.
+* CUDA: CUDA, or Compute Unified Device Architecture, is a parallel computing platform and application programming interface model created by Nvidia, allowing developers to use a CUDA-enabled graphics processing unit (GPU) for general purpose processing.
+
+* Distributed Data Parallel (DDP): DDP is a technique that replicates the model across multiple GPUs, allowing for parallel processing of data batches to speed up training.
+* Fully Sharded Data Parallel (FSDP): FSDP shards model parameters, gradients, and optimizer states across GPUs, reducing memory consumption and enabling training of larger models.
+* ZeRO Optimization: ZeRO stands for Zero Redundancy Optimizer, which optimizes memory by distributing model states across GPUs, minimizing redundancy.
