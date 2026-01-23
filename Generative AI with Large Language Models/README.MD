@@ -75,3 +75,5 @@ Attention is all you need paper : https://arxiv.org/abs/1706.03762
 * BloombergGPT: BloombergGPT is a large language model pretrained specifically for the finance domain, combining financial and general-purpose data to achieve high performance.
 * Scaling Laws: Scaling laws provide guidelines for determining the optimal model size and training data requirements based on computational resources.
 * Pretraining: Pretraining involves training a language model on a large corpus of text to develop its understanding of language before fine-tuning it for specific tasks.
+
+Bloomberg GPT: https://arxiv.org/abs/2303.17564
