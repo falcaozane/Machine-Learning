@@ -70,3 +70,8 @@ Attention is all you need paper : https://arxiv.org/abs/1706.03762
 * Chinchilla model: A compute optimal model identified in research that suggests the ideal training dataset size should be about 20 times larger than the number of parameters in the model.
 * petaFLOP per second day: A unit of compute that quantifies the number of floating point operations performed at a rate of one petaFLOP per second for an entire day, crucial for understanding compute budgets in model training.
 * power-law relationship: A mathematical relationship where one variable is proportional to another raised to some power, observed in the context of model performance relative to compute budget and dataset size.
+
+* Domain Adaptation: Domain adaptation is the process of adjusting a pretrained model to perform well in a specific domain by training it on domain-specific data.
+* BloombergGPT: BloombergGPT is a large language model pretrained specifically for the finance domain, combining financial and general-purpose data to achieve high performance.
+* Scaling Laws: Scaling laws provide guidelines for determining the optimal model size and training data requirements based on computational resources.
+* Pretraining: Pretraining involves training a language model on a large corpus of text to develop its understanding of language before fine-tuning it for specific tasks.
