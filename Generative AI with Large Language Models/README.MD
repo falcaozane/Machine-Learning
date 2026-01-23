@@ -66,3 +66,7 @@ Attention is all you need paper : https://arxiv.org/abs/1706.03762
 * Distributed Data Parallel (DDP): DDP is a technique that replicates the model across multiple GPUs, allowing for parallel processing of data batches to speed up training.
 * Fully Sharded Data Parallel (FSDP): FSDP shards model parameters, gradients, and optimizer states across GPUs, reducing memory consumption and enabling training of larger models.
 * ZeRO Optimization: ZeRO stands for Zero Redundancy Optimizer, which optimizes memory by distributing model states across GPUs, minimizing redundancy.
+
+* Chinchilla model: A compute optimal model identified in research that suggests the ideal training dataset size should be about 20 times larger than the number of parameters in the model.
+* petaFLOP per second day: A unit of compute that quantifies the number of floating point operations performed at a rate of one petaFLOP per second for an entire day, crucial for understanding compute budgets in model training.
+* power-law relationship: A mathematical relationship where one variable is proportional to another raised to some power, observed in the context of model performance relative to compute budget and dataset size.
