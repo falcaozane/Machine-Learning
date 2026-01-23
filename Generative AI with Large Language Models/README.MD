@@ -77,3 +77,8 @@ Attention is all you need paper : https://arxiv.org/abs/1706.03762
 * Pretraining: Pretraining involves training a language model on a large corpus of text to develop its understanding of language before fine-tuning it for specific tasks.
 
 Bloomberg GPT: https://arxiv.org/abs/2303.17564
+
+* Instruction Fine-Tuning: A process that adjusts a pre-trained language model to better respond to specific prompts and tasks, enhancing its usability.
+* Parameter Efficient Fine-Tuning (PEFT): A set of techniques that allow for fine-tuning large models with minimal computational resources by freezing original model weights and adding adaptive layers.
+* Catastrophic Forgetting: A phenomenon where a model forgets previously learned information when trained on new data, which can be mitigated through careful fine-tuning strategies.
+* LoRA (Low-Rank Adaptation): A method that uses low-rank matrices to achieve effective fine-tuning with reduced memory and computational requirements.
