@@ -82,3 +82,8 @@ Bloomberg GPT: https://arxiv.org/abs/2303.17564
 * Parameter Efficient Fine-Tuning (PEFT): A set of techniques that allow for fine-tuning large models with minimal computational resources by freezing original model weights and adding adaptive layers.
 * Catastrophic Forgetting: A phenomenon where a model forgets previously learned information when trained on new data, which can be mitigated through careful fine-tuning strategies.
 * LoRA (Low-Rank Adaptation): A method that uses low-rank matrices to achieve effective fine-tuning with reduced memory and computational requirements.
+
+* Prompt Completion Pairs: These are pairs of input prompts and their corresponding desired outputs used during the fine-tuning process to train the model effectively.
+* Instruction Fine-Tuning: Instruction fine-tuning involves training a model with examples that demonstrate how it should respond to specific instructions, enhancing its ability to generate accurate completions.
+* Evaluation Metrics: Metrics such as validation accuracy and test accuracy are used to evaluate the performance of fine-tuned models, ensuring they meet the desired task requirements.
+* Fine-Tuning: Fine-tuning is a supervised learning process that updates the weights of a base model using a dataset of labeled examples to improve its performance on specific tasks.
