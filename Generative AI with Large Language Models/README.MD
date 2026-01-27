@@ -87,3 +87,8 @@ Bloomberg GPT: https://arxiv.org/abs/2303.17564
 * Instruction Fine-Tuning: Instruction fine-tuning involves training a model with examples that demonstrate how it should respond to specific instructions, enhancing its ability to generate accurate completions.
 * Evaluation Metrics: Metrics such as validation accuracy and test accuracy are used to evaluate the performance of fine-tuned models, ensuring they meet the desired task requirements.
 * Fine-Tuning: Fine-tuning is a supervised learning process that updates the weights of a base model using a dataset of labeled examples to improve its performance on specific tasks.
+
+* Parameter-efficient fine-tuning (PEFT): PEFT is a technique that preserves the original model's weights while training only a small number of task-specific parameters, reducing the risk of catastrophic forgetting.
+* Multitask fine-tuning: Multitask fine-tuning involves training a model on multiple tasks simultaneously to maintain its generalized capabilities and prevent catastrophic forgetting.
+* Fine-tuning: Fine-tuning is the process of adapting a pre-trained model to improve its performance on a specific task by training it on a smaller, task-specific dataset.
+* Catastrophic forgetting: Catastrophic forgetting occurs when a model loses its ability to perform previously learned tasks after being fine-tuned on a new task, due to modifications in its weights.
