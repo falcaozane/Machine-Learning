@@ -92,3 +92,8 @@ Bloomberg GPT: https://arxiv.org/abs/2303.17564
 * Multitask fine-tuning: Multitask fine-tuning involves training a model on multiple tasks simultaneously to maintain its generalized capabilities and prevent catastrophic forgetting.
 * Fine-tuning: Fine-tuning is the process of adapting a pre-trained model to improve its performance on a specific task by training it on a smaller, task-specific dataset.
 * Catastrophic forgetting: Catastrophic forgetting occurs when a model loses its ability to perform previously learned tasks after being fine-tuned on a new task, due to modifications in its weights.
+
+* FLAN Models: A family of models fine-tuned using specific instructions to enhance their performance on various tasks, with FLAN-T5 and FLAN-PALM being notable examples.
+* Dialogsum Dataset: A dataset consisting of over 13,000 support chat dialogues and summaries, used to fine-tune models for customer service applications.
+* Multitask Fine-Tuning: An extension of single task fine-tuning where a model is trained on a dataset containing examples for multiple tasks, improving its performance across all tasks simultaneously.
+* SAMSum Dataset: A dataset containing 16,000 messenger-like conversations and their summaries, used for training models in dialogue summarization tasks.
