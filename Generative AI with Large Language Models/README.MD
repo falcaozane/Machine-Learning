@@ -97,3 +97,5 @@ Bloomberg GPT: https://arxiv.org/abs/2303.17564
 * Dialogsum Dataset: A dataset consisting of over 13,000 support chat dialogues and summaries, used to fine-tune models for customer service applications.
 * Multitask Fine-Tuning: An extension of single task fine-tuning where a model is trained on a dataset containing examples for multiple tasks, improving its performance across all tasks simultaneously.
 * SAMSum Dataset: A dataset containing 16,000 messenger-like conversations and their summaries, used for training models in dialogue summarization tasks.
+
+Scaling instruct models: https://arxiv.org/abs/2210.11416
