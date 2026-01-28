@@ -99,3 +99,9 @@ Bloomberg GPT: https://arxiv.org/abs/2303.17564
 * SAMSum Dataset: A dataset containing 16,000 messenger-like conversations and their summaries, used for training models in dialogue summarization tasks.
 
 Scaling instruct models: https://arxiv.org/abs/2210.11416
+
+* Precision: Precision measures the number of correct predictions made by the model divided by the total number of predictions, indicating the accuracy of the model's outputs.
+* BLEU Score: BLEU (Bilingual Evaluation Understudy) is a metric designed to evaluate the quality of machine-translated text by comparing it to human-generated translations.
+* Recall: Recall measures the number of correct predictions made by the model divided by the total number of actual positive cases, reflecting the model's ability to capture relevant outputs.
+* ROUGE Score: ROUGE (Recall-Oriented Understudy for Gisting Evaluation) is a metric used to evaluate the quality of automatically generated summaries by comparing them to human-generated reference summaries.
+* F1 Score: The F1 score is the harmonic mean of precision and recall, providing a balance between the two metrics to evaluate model performance.
