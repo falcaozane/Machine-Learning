@@ -111,3 +111,9 @@ Scaling instruct models: https://arxiv.org/abs/2210.11416
 * MMLU: Massive Multitask Language Understanding (MMLU) is a benchmark that tests models on a wide range of subjects, requiring extensive world knowledge and problem-solving abilities.
 * HELM: The Holistic Evaluation of Language Models (HELM) framework aims to improve model transparency and assess performance across multiple metrics, including fairness and bias.
 * GLUE: General Language Understanding Evaluation (GLUE) is a benchmark that consists of a collection of natural language tasks designed to encourage the development of models that can generalize across multiple tasks.
+
+* Full Fine-Tuning: A method where all model weights are updated during supervised learning, leading to high memory requirements and potential catastrophic forgetting.
+* Reparameterization Methods: Techniques that create new low-rank transformations of the original network weights to reduce the number of parameters to train.
+* Additive Methods: PEFT approaches that keep original model weights frozen while introducing new trainable components, such as adapter layers or soft prompts.
+* Selective Methods: PEFT approaches that fine-tune only a subset of the original model parameters, focusing on specific layers or components.
+* Parameter Efficient Fine-Tuning (PEFT): A technique that updates only a small subset of parameters, significantly reducing memory requirements and allowing training on consumer hardware.
