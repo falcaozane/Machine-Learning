@@ -105,3 +105,9 @@ Scaling instruct models: https://arxiv.org/abs/2210.11416
 * Recall: Recall measures the number of correct predictions made by the model divided by the total number of actual positive cases, reflecting the model's ability to capture relevant outputs.
 * ROUGE Score: ROUGE (Recall-Oriented Understudy for Gisting Evaluation) is a metric used to evaluate the quality of automatically generated summaries by comparing them to human-generated reference summaries.
 * F1 Score: The F1 score is the harmonic mean of precision and recall, providing a balance between the two metrics to evaluate model performance.
+
+* BIG-bench: BIG-bench consists of 204 tasks across various domains, designed to evaluate LLMs on a broad spectrum of skills beyond basic language understanding.
+* SuperGLUE: SuperGLUE is an advanced benchmark introduced to address the limitations of GLUE, featuring more challenging tasks and designed to test specific aspects of LLM performance.
+* MMLU: Massive Multitask Language Understanding (MMLU) is a benchmark that tests models on a wide range of subjects, requiring extensive world knowledge and problem-solving abilities.
+* HELM: The Holistic Evaluation of Language Models (HELM) framework aims to improve model transparency and assess performance across multiple metrics, including fairness and bias.
+* GLUE: General Language Understanding Evaluation (GLUE) is a benchmark that consists of a collection of natural language tasks designed to encourage the development of models that can generalize across multiple tasks.
