@@ -117,3 +117,8 @@ Scaling instruct models: https://arxiv.org/abs/2210.11416
 * Additive Methods: PEFT approaches that keep original model weights frozen while introducing new trainable components, such as adapter layers or soft prompts.
 * Selective Methods: PEFT approaches that fine-tune only a subset of the original model parameters, focusing on specific layers or components.
 * Parameter Efficient Fine-Tuning (PEFT): A technique that updates only a small subset of parameters, significantly reducing memory requirements and allowing training on consumer hardware.
+
+* Low-rank Adaptation (LoRA): LoRA is a fine-tuning technique that reduces the number of parameters to be trained by freezing original model parameters and injecting low-rank matrices.
+* Parameter Efficiency: LoRA allows for significant reductions in the number of trainable parameters, enabling fine-tuning on a single GPU without the need for distributed computing.
+* Transformer Architecture: A neural network architecture that processes input data through layers of self-attention and feedforward networks, crucial for understanding how LoRA operates.
+* ROUGE Metric: A metric used to evaluate the performance of models in tasks like summarization, indicating the effectiveness of LoRA fine-tuning compared to full fine-tuning.
