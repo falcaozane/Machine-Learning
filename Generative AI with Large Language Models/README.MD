@@ -122,3 +122,9 @@ Scaling instruct models: https://arxiv.org/abs/2210.11416
 * Parameter Efficiency: LoRA allows for significant reductions in the number of trainable parameters, enabling fine-tuning on a single GPU without the need for distributed computing.
 * Transformer Architecture: A neural network architecture that processes input data through layers of self-attention and feedforward networks, crucial for understanding how LoRA operates.
 * ROUGE Metric: A metric used to evaluate the performance of models in tasks like summarization, indicating the effectiveness of LoRA fine-tuning compared to full fine-tuning.
+
+* Parameter-Efficient Fine Tuning (PEFT): PEFT refers to techniques that allow for fine-tuning models with fewer parameters, reducing computational costs while maintaining performance.
+* Prompt Tuning: Prompt tuning involves adding trainable tokens to prompts, allowing the model to learn optimal values for these tokens to enhance task performance without updating the model weights.
+* Prompt Engineering: Prompt engineering involves crafting the language of prompts to elicit desired model responses, which can be labor-intensive and limited by context window size.
+* Soft Prompts: Soft prompts are virtual tokens that can take on any value in the continuous embedding space, used in prompt tuning to optimize model performance.
+* LoRA (Low-Rank Adaptation): LoRA is a method that uses low-rank decomposition matrices to efficiently update model parameters without retraining the entire model.
